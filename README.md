@@ -22,71 +22,71 @@ Priorities range from 1 to 10, where a higher numeric value indicates a higher r
 
     T1, 1, 4, 20
 
-...T2, 4, 2, 25
+    T2, 4, 2, 25
 
-...T3, 6, 3, 25
+    T3, 6, 3, 25
 
-...T4, 2, 3, 15
+    T4, 2, 3, 15
 
-...T5, 5, 10, 10
+    T5, 5, 10, 10
 
 - The program should read the name of the scheduler algorithm and the task file as command line input and produce a text file named “output.txt” with the following example output:
 
-...>> java Schedule fcfs schedule.txt
+    >> java Schedule fcfs schedule.txt
 
-...>> cat output.txt
+    >> cat output.txt
 
 - First Come First Serve Scheduling
 
-...Will run Name: T1
+    Will run Name: T1
 
-...Priority: 4
+    Priority: 4
 
-...Burst: 20
-
-
-...Task T1 finished
+    Burst: 20
 
 
-...Will run Name: T4
-
-...Priority: 10
-
-...Burst: 15
+    Task T1 finished
 
 
-...Task T4 Finished
+    Will run Name: T4
+
+    Priority: 10
+
+    Burst: 15
 
 
-...Will run Name: T2
-
-...Priority: 2
-
-...Burst: 25
+    Task T4 Finished
 
 
-...Task T2 Finished 
+    Will run Name: T2
+
+    Priority: 2
+
+    Burst: 25
+
+
+    Task T2 Finished 
 
 
 
-...Will run Name: T5
+    Will run Name: T5
 
-...Priority: 10
+    Priority: 10
 
-...Burst: 10
-
-
-...Task T5 Finished
+    Burst: 10
 
 
-...Will run Name: T3
-
-...Priority: 3
-
-...Burst: 25
+    Task T5 Finished
 
 
-...Task T3 Finished
+    Will run Name: T3
+
+    Priority: 3
+
+    Burst: 25
+
+
+    Task T3 Finished
 
 
 - Calculate and print the average turnaround time and waiting time or each of the scheduling algorithms.
