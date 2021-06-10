@@ -20,7 +20,7 @@ Priorities range from 1 to 10, where a higher numeric value indicates a higher r
 
 - The tasks are kept on a file and has the form [task name] [arrival time] [priority] [ CPU burst], with the following example format:
 
-...T1, 1, 4, 20
+... T1, 1, 4, 20
 
 ...T2, 4, 2, 25
 
